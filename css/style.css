@@ -1,0 +1,28 @@
+/* SCROLL */
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  background-color: #01fabe;
+}
+
+/* NAVBAR */
+.logo {
+    width: 150px;
+    height: auto;
+}
+.navbar {
+  background-color: transparent;
+}
+
+/* FORMULARIO */
+.botonFormulario {
+  color: white;
+  background-color: #4a3288;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4a3288;
+}
