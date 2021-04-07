@@ -18,34 +18,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!--    FONT AWESOME - WHATSAPP BUTTON-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="top">
-    
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md navbar-light navbar-fixed-top">
-        <div class="container">
+
+<!-- NAVBAR -->
+<nav class="navbar-expand-md navbar-light navbar-fixed-top" id="navbar">
+    <div class="container">
+        <div class="row justify-content-between">
             <!-- Logo -->
-            <a class="navbar-brand" href="#top"><img src="media/logos/Warmi_Logo_fondotransparente_1.png" class="logo img-fluid" alt="logo"></a>
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="col-6">
+                <a class="navbar-brand" href="#top"><img src="media/logos/Warmi_Logo_fondotransparente_1.png"
+                                                         class="logo img-fluid" alt="logo"></a>
+            </div>
+
             <!-- Secciones -->
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse col-6 row justify-content-center" id="collapsibleNavbar">
                 <ul class="navbar-nav">
-                    <li class="nav-item px-3"><a class="nav-link" href="#servicios">Servicios</a></li>
-                    <li class="nav-item px-3"><a class="nav-link" href="#equipo">Equipo</a></li>
-                    <li class="nav-item px-3"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item px-3"><a class="nav-link warmi-pink-text" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item px-3"><a class="nav-link warmi-pink-text" href="#equipo">Equipo</a></li>
+                    <li class="nav-item px-3"><a class="nav-link warmi-pink-text" href="#contacto">Contacto</a></li>
                 </ul>
             </div>
-        </div>   
-    </nav>
+        </div>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+    <div class="parallax-img1"></div>
 
     <!-- SERVICIOS -->
     <div id="servicios" class="container marketing my-5 text-center">
@@ -71,6 +78,10 @@
             </div>
         </div>
     </div>
+
+
+    <div class="parallax-img2"></div>
+    
 
     <!-- EQUIPO -->
     <div id="equipo" class="container my-5 text-center">
@@ -193,5 +204,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <!--JAVASCRIPTS-->
+<!--    <script src="js/index.js"></script>-->
 </body>
 </html>

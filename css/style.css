@@ -7,13 +7,67 @@ body {
   background-color: #01fabe;
 }
 
+/* WARMI COLOR PALETTE */
+.warmi-lyla-text{
+    color: #7651ee
+}
+
+.warmi-violet-text{
+    color: #4a3288
+}
+
+.warmi-pink-text{
+    color: #f85fbf
+}
+
+.warmi-cian-text{
+    color: #01fabe
+}
+
 /* NAVBAR */
 .logo {
     width: 150px;
     height: auto;
 }
-.navbar {
-  background-color: transparent;
+
+#navbar {
+    position: fixed;
+    /*top: -80px;*/
+    background-color: transparent;
+    display: block;
+    transition: top 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f85fbf;
+}
+
+/* BANNER ANIMATION */
+.parallax-img1 {
+    /* The image used */
+    background-image: url("../media/backgrounds/background1.jpg");
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-img2 {
+    /* The image used */
+    background-image: url("../media/backgrounds/background2.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* FORMULARIO */
