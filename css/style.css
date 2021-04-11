@@ -4,7 +4,7 @@ html {
   }
 
 body {
-  background-color: #01fabe;
+  background-color: white;
 }
 
 /* WARMI COLOR PALETTE */
@@ -23,6 +23,21 @@ body {
 .warmi-cian-text{
     color: #01fabe
 }
+.warmi-lyla-background{
+    background-color: #7651ee
+}
+
+.warmi-violet-background{
+    background-color: #4a3288
+}
+
+.warmi-pink-background{
+    background-color: #f85fbf
+}
+
+.warmi-cian-background{
+    background-color: #01fabe
+}
 
 /* NAVBAR */
 .logo {
@@ -37,9 +52,13 @@ body {
     display: block;
     transition: top 0.3s;
 }
+.nav-item {
+    color: black;
+}
 
-.navbar-light .navbar-nav .nav-link {
-    color: #f85fbf;
+/* PORTADA */
+#portada {
+    margin-top: 100px;
 }
 
 /* BANNER ANIMATION */
@@ -69,12 +88,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* COMUNIDAD */
+.imagenComunidad{
+    padding-right: 0px;
+}
+/* COLABORADORES */
+
+
 
 /* FORMULARIO */
-.botonFormulario {
-  color: white;
-  background-color: #4a3288;
-}
+
 
 /* WHATSAPP BUTTON STYLE */
 .float{
@@ -96,7 +119,12 @@ body {
     margin-top:16px;
 }
 
-/* FOOTER */
-footer {
-  background-color: #4a3288;
+/* CONTACTO */
+#contacto {
+    height: 615px;
 }
+.sizeContacto {
+    height: 780px;
+}
+
+/* FOOTER */
