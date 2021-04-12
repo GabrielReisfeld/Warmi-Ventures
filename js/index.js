@@ -1,9 +1,10 @@
 
+const rellax = new Rellax('.rellax');
 
 //******************* SCROLL DOWN ANIMATIONS *******************//
 
 // When the user scrolls down 20px from the top of the document, slide down the navbar
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollParallax()};
 
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

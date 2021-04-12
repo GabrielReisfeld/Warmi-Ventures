@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="3570" viewBox="0 0 1920 3570">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8253ea"/>
+      <stop offset="1" stop-color="#f85fbf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#01fabe"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1920_2">
+      <rect width="1920" height="3570"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_2" data-name="Web 1920 – 2" clip-path="url(#clip-Web_1920_2)">
+    <rect width="1920" height="3570" fill="#fff"/>
+    <path id="Trazado_1187" data-name="Trazado 1187" d="M3659.075-283.574a115.321,115.321,0,0,0-68.867-22.413v-.032H3237.093a117.74,117.74,0,0,0-15.7,1.16,115.484,115.484,0,0,0-76.615,45.359l-83.251,110.993L2943.391-306.019H2178.349a115.417,115.417,0,0,0-68.028,23.25,115.544,115.544,0,0,0-45.359,76.589,115.559,115.559,0,0,0,22.09,86.237l445.616,594.154L2705.1,244.3l356.651,484.582,622.45-849.87C3722.1-172.718,3710.82-245.6,3659.075-283.574Z" transform="translate(-1288.769 597.407)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_1201" data-name="Trazado 1201" d="M3659.075-283.574a115.321,115.321,0,0,0-68.867-22.413v-.032H3237.093a117.74,117.74,0,0,0-15.7,1.16,115.484,115.484,0,0,0-76.615,45.359l-83.251,110.993L2943.391-306.019H2178.349a115.417,115.417,0,0,0-68.028,23.25,115.544,115.544,0,0,0-45.359,76.589,115.559,115.559,0,0,0,22.09,86.237l445.616,594.154L2705.1,244.3l356.651,484.582,622.45-849.87C3722.1-172.718,3710.82-245.6,3659.075-283.574Z" transform="translate(-3062.633 1097.407)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_1206" data-name="Trazado 1206" d="M2990.226-292.984A66.973,66.973,0,0,0,2950.232-306v-.019H2745.164a68.377,68.377,0,0,0-9.119.674A67.065,67.065,0,0,0,2691.552-279L2643.2-214.545l-68.6-91.474H2130.31a67.027,67.027,0,0,0-39.507,13.5,67.1,67.1,0,0,0-26.342,44.478,67.108,67.108,0,0,0,12.829,50.081l258.786,345.049L2436.216,13.57l207.122,281.415,361.481-493.553A67.642,67.642,0,0,0,2990.226-292.984Z" transform="translate(-488.769 2289.514)" fill="url(#linear-gradient-2)"/>
+    <path id="Trazado_1207" data-name="Trazado 1207" d="M2554.885-299.109a35.5,35.5,0,0,0-21.2-6.9v-.01H2424.977a36.248,36.248,0,0,0-4.834.357,35.551,35.551,0,0,0-23.586,13.964l-25.629,34.169-36.368-48.49H2099.042a35.531,35.531,0,0,0-20.942,7.157,35.571,35.571,0,0,0-13.964,23.578,35.574,35.574,0,0,0,6.8,26.548L2208.119-65.825,2261.2-136.6,2371,12.574,2562.62-249.059A35.857,35.857,0,0,0,2554.885-299.109Z" transform="translate(-2224.526 3211.426)" fill="url(#linear-gradient-2)"/>
+    <text id="ÚNETE_A_WARMI" data-name="ÚNETE A WARMI" transform="translate(559 547)" fill="#fff" font-size="16" font-family="SofiaProBold, Sofia Pro" letter-spacing="0.181em"><tspan x="-77.496" y="0">ÚNETE A WARMI</tspan></text>
+  </g>
+</svg>
