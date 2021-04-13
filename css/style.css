@@ -15,11 +15,22 @@ html {
     url('../fonts/WebFontSofiaPro/sofiaproregular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+/*Using font from webpage (When we have it)*/
+/*@font-face {*/
+/*    font-family: 'sofia_proregular';*/
+/*    src: url("https://yoursite.com/css/fonts/CustomFont.eot");*/
+/*    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),*/
+/*    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),*/
+/*    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");*/
+/*}*/
 
 body{
-    font-family: 'sofia_proregular';
+    font-family: 'sofia_proregular', serif;
+}
+
+#team, #contacto, #colaboradores, #servicios{
+    scroll-margin-top: 150px;
 }
 
 /* WARMI COLOR PALETTE */
@@ -58,10 +69,15 @@ body{
 
 .parallax-bkg-rellax{
     background-image: url("../media/backgrounds/main-bkg.svg");
+    
 }
 
-.parallax-bkg {  
+#parallax-bkg {
     background-image: url("../media/backgrounds/main-bkg.svg");
+    /*background-attachment: fixed;*/
+    /*background-position: top;*/
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 /* NAVBAR */
@@ -70,7 +86,7 @@ body{
     height: auto;       
 }
 
-#navbar {
+nav {
     /*position: fixed;*/
     /*top: -80px;*/    
     min-height: 150px;
