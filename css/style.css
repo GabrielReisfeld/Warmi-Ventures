@@ -41,42 +41,38 @@ html {
     background-color: #01fabe
 }
 
-
 /* PARALLAX EFFECTS*/
 
 .parallax-bkg-rellax{
     background-image: url("../media/backgrounds/main-bkg.svg");
 }
 
-.parallax-bkg {
-    /* The image used */
+.parallax-bkg {  
     background-image: url("../media/backgrounds/main-bkg.svg");
-
-    /* Set a specific height */
-    min-height: 100vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* NAVBAR */
 .logo {
-    width: 150px;
-    height: auto;
+    width: auto;
+    height: auto;       
 }
 
 #navbar {
     /*position: fixed;*/
-    /*top: -80px;*/
-    background-color: transparent;
+    /*top: -80px;*/    
+    min-height: 150px;
+    background-color: white;
     display: block;
     transition: top 0.3s;
 }
 .nav-item {
-    color: black;
+    color: black;    
+    top: 50px;
+}
+
+.navbar-nav li a{
+    font-size: 2rem;    
+    top: 10px
 }
 
 /*---- underline -----*/
@@ -114,6 +110,7 @@ html {
 /* PORTADA */
 #portada {
     margin-top: 100px;
+    font-size: large;
 }
 
 /* COMUNIDAD */
@@ -181,6 +178,14 @@ html {
 
 /* FOOTER */
 
+
+
+
+
+
+
+
+/********** EXTRA UTILITIES************/
 
 /* BANNER ANIMATION */
 .parallax-img1 {
