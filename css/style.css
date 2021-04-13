@@ -142,6 +142,15 @@ nav {
     font-size: large;
 }
 
+/* POR QUE WARMI*/
+
+.icon-warmi{
+    height: 140px;
+    width: 140px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
 /* COMUNIDAD */
 .imagenComunidad{
     padding-right: 0;
