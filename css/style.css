@@ -156,9 +156,7 @@ nav {
 .imgIntegrante{
     width: 280px; 
    height: 250px; 
-   -webkit-transform: skewY(-6deg); 
-   -moz-transform: skewY(-20deg); 
-   -o-transform: skewY(-20deg); 
+   -webkit-transform: skewY(-6deg);
    margin-top: 20px;
    background-image: url("../media/photos/jaime.jpeg");
    background-size: cover;
