@@ -29,8 +29,8 @@ body{
     font-family: 'sofia_proregular', serif;
 }
 
-#team, #contacto, #colaboradores, #servicios{
-    scroll-margin-top: 150px;
+#team, #contact, #collaborators, #services{
+    scroll-margin-top: 175px;
 }
 
 /* WARMI COLOR PALETTE */
@@ -77,65 +77,121 @@ body{
     /*background-attachment: fixed;*/
     /*background-position: top;*/
     /*background-repeat: no-repeat;*/
-    background-size: cover;
+    background-size: cover;    
+}
+@media (min-width: 600px) and (max-width: 992px) {
+    #parallax-bkg {
+        background-image: url("../media/backgrounds/main-bkg.svg");
+        /*background-attachment: fixed;*/
+        /*background-position: top;*/
+        /*background-repeat: no-repeat;*/
+        background-size: cover;
+    }
+}
+@media (max-width: 600px) {
+    #parallax-bkg{       
+        background-image: url("../media/backgrounds/main-bkg.svg");        
+    }
 }
 
 /* NAVBAR */
-.logo {
-    width: auto;
-    height: auto;       
-}
 
-nav {
-    /*position: fixed;*/
-    /*top: -80px;*/    
+nav {    
     min-height: 150px;
     background-color: white;
     display: block;
     transition: top 0.3s;
 }
 .nav-item {
-    color: black;    
-    top: 50px;
+    color: black;   
+    
+}
+.navbar-nav li a{    
+    font-size: 1rem;
+    font-weight: bold;
+}
+.logo {
+    width: auto;
+    height: 150px;
 }
 
-.navbar-nav li a{
-    font-size: 1.8rem;    
-    top: 10px
+@media (min-width: 600px) and (max-width: 992px) {
+    nav {
+        position: static;
+        display: block;
+        transition: top 0.3s;
+    }
+
+    .navbar-nav li a{
+        font-size: 1.8rem;
+        top: 10px
+    }
+    
+    .sticky-top{
+        position: static;
+    }
+}
+@media (max-width: 600px) {
+    nav {        
+        display: block;
+        transition: top 0.3s;
+    }
+    
+    .sticky-top{
+        position: relative;
+    }
+
+    .navbar-nav li a{
+        font-size: 1rem;
+        top: 10px
+    }
+
+    .sticky-top{
+        position: static;
+    }
+
+    .logo {
+        transform: translateX(-30px);
+        width: 300px;
+        height: 116px;
+    }
 }
 
 /*---- underline -----*/
 
-.hvr-underline {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    overflow: hidden;
-}
-.hvr-underline:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    background: #01fabe;
-    height: 4px;
-    -webkit-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-}
-.hvr-underline:hover:before, .hvr-underline:focus:before, .hvr-underline:active:before {
-    left: 0;
-    right: 0;
-}
+@media (min-width: 992px) {
+    .hvr-underline {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden;
+    }
 
+    .hvr-underline:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        right: 50%;
+        bottom: 0;
+        background: #01fabe;
+        height: 4px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .hvr-underline:hover:before, .hvr-underline:focus:before, .hvr-underline:active:before {
+        left: 0;
+        right: 0;
+    }
+}
 /* PORTADA */
 #portada {
     margin-top: 100px;
@@ -151,17 +207,51 @@ nav {
     max-width: 150px;
 }
 
+/* SERVICIOS */
+
+.service-section{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;    
+}
+
+.item-1{
+    order: 1;
+}
+
+.item-2{
+    order: 2;
+}
+
+.service-section h1{
+    text-decoration: underline;
+    text-decoration-color: #01fabe;
+}
+
 /* EQUIPO */
 
-.imgIntegrante{
-    width: 280px; 
-   height: 250px; 
-   -webkit-transform: skewY(-6deg);
-   margin-top: 20px;
-   background-image: url("../media/photos/jaime.jpeg");
-   background-size: cover;
-   
+.member{
+    top: -20px;
+    min-height: 300px;    
 }
+
+.imgIntegrante { 
+    transform: translateY(50px);
+    width: 280px;
+    height: 250px;
+    -webkit-transform: skewY(-6deg);    
+    overflow: hidden;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgIntegrante img{    
+    position: relative;    
+    -webkit-transform: skewY(6deg);    
+}
+
 .card:hover .imgIntegrante{
     filter: blur(2px);
     transition: all 0.5s ease-in-out;
@@ -208,7 +298,7 @@ nav {
 }
 
 /* CONTACTO */
-#contacto {
+#contact {
     height: 615px;
 }
 .sizeContacto {
@@ -216,40 +306,3 @@ nav {
 }
 
 /* FOOTER */
-
-
-
-
-
-
-
-
-/********** EXTRA UTILITIES************/
-
-/* BANNER ANIMATION */
-.parallax-img1 {
-    /* The image used */
-    background-image: url("../media/backgrounds/background1.jpg");
-
-    /* Set a specific height */
-    min-height: 100vh;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax-img2 {
-    /* The image used */
-    background-image: url("../media/backgrounds/background2.jpg");
-
-    /* Set a specific height */
-    min-height: 500px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}

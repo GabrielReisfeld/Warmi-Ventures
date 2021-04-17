@@ -14,9 +14,10 @@
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -25,32 +26,33 @@
 <body id="parallax-bkg">
 
 <!-- NAVBAR -->
-    <nav id="navbar" class="sticky-top navbar-expand-lg navbar-light">
-        <div class="container">
-            <div class="row justify-content-between">
-                <!-- Logo -->
-                <div class="col-4">
-                    <a class="navbar-brand" href="#top"><img src="media/logos/Warmi_Logo_fondotransparente_1.png" class="logo img-fluid" alt="logo"></a>
-                </div>
+<nav  class="sticky-top navbar navbar-expand-lg navbar-light">
+    
+    <div class="container">
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Logo -->
+    <a class="navbar-brand" href="#top">
+        <img src="media/logos/Warmi_Logo_fondotransparente_1.png" class="img-fluid logo"
+             alt="logo">
+    </a>
 
-                <!-- Secciones -->
-                <div class="collapse navbar-collapse col-8 row justify-content-left align-items-bottom" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#quienesSomos">¿QUIÉNES SOMOS?</a></li>
-                        <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#servicios">SERVICIOS</a></li>
-                        <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#team">EQUIPO</a></li>
-                        <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#colaboradores">COLABORADORES</a></li>
-                        <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#contacto">CONTACTO</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-    </nav>
+    <!-- Secciones -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav my-2 my-lg-0">
+            <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#aboutUs">NOSOTROS</a></li>
+            <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#services">SERVICIOS</a></li>
+            <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#team">EQUIPO</a></li>
+            <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#collaborators">COLABORADORES</a></li>
+            <li class="nav-item px-3 hvr-underline"><a class="nav-link" href="#contact">CONTACTO</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
 
     <!-- PORTADA -->
     <div id="portada" class="container">
@@ -86,13 +88,39 @@
 </div>
 
 <!-- SERVICIOS -->
-    <div id="servicios" class="container">
-        <div class="row">
-            <div class="offset-lg-1"></div>
-            <div class="col-lg-10">
-                <img src="media/imagenes/servicios entero.svg" class="img-fluid" alt="servicios">
+    <div id="services" class="container">
+        <div class="service-section">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h1>CHARLAS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi sit qui ea aliquid facilis accusantium nesciunt ad nam autem, rerum quam ut fugit quaerat praesentium expedita velit sunt ex!</p>
             </div>
-            <div class="offset-lg-1"></div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <img src="media/imagenes/charlas.svg" class="img-fluid" alt="img-charlas">                
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h1>TALLERES</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi sit qui ea aliquid facilis accusantium nesciunt ad nam autem, rerum quam ut fugit quaerat praesentium expedita velit sunt ex!</p>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <img src="media/imagenes/talleres.svg" class="img-fluid" alt="img-charlas">
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h1>INCUBACION</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi sit qui ea aliquid facilis accusantium nesciunt ad nam autem, rerum quam ut fugit quaerat praesentium expedita velit sunt ex!</p>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <img src="media/imagenes/incubacion.svg" class="img-fluid" alt="img-charlas">
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <h1>VOLUNTARIADO</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi sit qui ea aliquid facilis accusantium nesciunt ad nam autem, rerum quam ut fugit quaerat praesentium expedita velit sunt ex!</p>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <img src="media/imagenes/voluntariado.svg" class="img-fluid" alt="img-charlas">
+            </div>
         </div>
     </div>
 
@@ -102,7 +130,9 @@
             <h1><b>Equipo Warmi</b></h1>
             <div class="card-deck">
                 <div class="card border-0 my-5 warmi-cian-background">
-                    <div class="imgIntegrante card-img-top mx-auto"></div>
+                    <div class="imgIntegrante  mx-auto">
+                        <img class="card-img-top member" src="media/photos/jaime.jpeg">
+                    </div>
                     <div class="overlay">
                     <a href="https://www.linkedin.com/in/jaime-alejandro-fern%C3%A1ndez-chavez/" target="_blank" class="icon" title="User Profile">
                         <i class="fa fa-linkedin-square mx-3" style="font-size:60px;"></i>
@@ -114,7 +144,9 @@
                     </div>
                 </div>
                 <div class="card border-0 my-5 warmi-cian-background">
-                    <div class="imgIntegrante card-img-top mx-auto"></div>
+                    <div class="imgIntegrante  mx-auto">
+                        <img class="card-img-top member" src="media/photos/jaime.jpeg">
+                    </div>
                     <div class="overlay">
                     <a href="https://www.linkedin.com/in/katya-geraldine-anco-bustillos-a05b08160/" target="_blank" class="icon" title="User Profile">
                         <i class="fa fa-linkedin-square mx-3" style="font-size:60px;"></i>
@@ -126,7 +158,9 @@
                     </div>
                 </div>
                 <div class="card border-0 my-5 warmi-cian-background">
-                    <div class="imgIntegrante card-img-top mx-auto"></div>
+                    <div class="imgIntegrante  mx-auto">
+                        <img class="card-img-top member" src="media/photos/jaime.jpeg">
+                    </div>
                     <div class="overlay">
                     <a href="https://ar.linkedin.com/" target="_blank" class="icon" title="User Profile">
                         <i class="fa fa-linkedin-square mx-3" style="font-size:60px;"></i>
@@ -218,7 +252,7 @@
 
 
     <!-- COLABORADORES -->
-    <div id="colaboradores" class="container my-5">
+    <div id="collaborators" class="container my-5">
         <h1 class="text-center mb-5"><b>Nuestros colaboradores</b></h1>
         <div class="row text-center mt-5">
             <div class="col-md-4">
@@ -235,7 +269,7 @@
     </div>
 
     <!-- CONTACTO -->
-    <div id="contacto" class="warmi-violet-background">
+    <div id="contact" class="warmi-violet-background">
         <div class="container mt-5 text-center">
             <div class="row">
                 <div class="col-lg-5 sizeContacto">
@@ -305,8 +339,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
     
     <!--JAVASCRIPTS-->
-
-<!--    <script src="js/rellax.min.js"></script>-->
     <script src="js/index.js"></script>
 </body>
 </html>
