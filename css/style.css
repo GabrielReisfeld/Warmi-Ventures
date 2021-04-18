@@ -29,7 +29,7 @@ body{
     font-family: 'sofia_proregular', serif;
 }
 
-#team, #contact, #collaborators, #services{
+#team, #contact, #community, #services{
     scroll-margin-top: 175px;
 }
 
@@ -112,7 +112,7 @@ nav {
 }
 .logo {
     width: auto;
-    height: 150px;
+    height: 80px;
 }
 
 @media (min-width: 600px) and (max-width: 992px) {
@@ -228,8 +228,12 @@ nav {
 .service-section h1{
     text-decoration: underline;
     text-decoration-color: #01fabe;
+    font-size: 50px;
 }
-
+.service-section p{
+    font-size: 25px;
+    color: gray;
+}
 /* EQUIPO */
 
 .member{
@@ -269,11 +273,6 @@ nav {
 }
 
 /* COMUNIDAD */
-.imagenComunidad{
-    padding-right: 0;
-}
-
-/* COLABORADORES */
 
 
 
@@ -306,3 +305,17 @@ nav {
 }
 
 /* FOOTER */
+footer {
+    height: 200px;
+}
+.redesSociales a:hover {
+    opacity: 0.7;
+}
+.navFooter a:hover{
+    opacity: 0.7;
+}
+@media (max-width: 600px){
+    .navFooter{
+        font-size: 2.2vw;
+    }
+}
