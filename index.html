@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="parallax-bkg">
+<body id="parallax-bkg" class="parallax-bkg-mobile">
 
     <!-- NAVBAR -->
     <nav  class="sticky-top navbar navbar-expand-lg navbar-light">
@@ -32,13 +32,15 @@
         <div class="container">
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Logo -->
         <a class="navbar-brand" href="#top">
             <img src="media/logos/Warmi_Logo_nav.png" class="img-fluid logo"
                 alt="logo">
+            <img src="media/logos/Warmi_Logo_fondotransparente_6.png" class="img-fluid logo-mobile"
+                 alt="logo">
         </a>
 
 
@@ -58,12 +60,14 @@
     <!-- PORTADA -->
     <div id="portada" class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-12">
                 <h3><b>Bienvenidos</b></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae modi sit qui ea aliquid facilis accusantium nesciunt ad nam autem, rerum quam ut fugit quaerat praesentium expedita velit sunt ex!</p>
-                <a class="btn btn-lg text-white warmi-lyla-background" href="#">ÚNETE A WARMI</a>
+                <div class="text-center-btn">
+                    <a class="btn btn-lg text-white warmi-lyla-background" href="#">ÚNETE A WARMI</a>
+                </div>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-9 col-sm-12">
                 <img src="media/imagenes/portada.svg" class="img-fluid" alt="portada">
             </div>
         </div>
@@ -135,40 +139,31 @@
         <div class="container my-5 text-center">
             <h1><b>Equipo Warmi</b></h1>
             <div class="card-deck">
-                <div class="card border-0 my-5 warmi-cian-background">
-                    <div class="imgIntegrante mx-auto">
-                        <img class="card-img-top member" src="media/photos/jaime.jpeg">
-                    </div>
-                    <div class="overlay">
-                    <a href="https://www.linkedin.com/in/jaime-alejandro-fern%C3%A1ndez-chavez/" target="_blank" class="icon" title="User Profile">
-                        <i class="fa fa-linkedin-square mx-3" style="font-size:60px;"></i>
+                <div class="card col-md-12 border-0 float-center my-5 warmi-cian-background">
+                    <a href="https://www.linkedin.com/in/jaime-alejandro-fern%C3%A1ndez-chavez/" target="_blank" class="imgIntegrante-jaime mx-auto icon" title="User Profile">
+                    <div class="card-img-top member "></div>
                     </a>
-                    </div>
                     <div class="card-body warmi-cian-background">
                         <h4 class="card-title"><b>Jaime Fernández Chávez</b></h4>
                         <p class="card-text">“Construyamos un mundo mejor para las futuras generaciones”</p>
                     </div>
                 </div>
-                <div class="card border-0 my-5 warmi-cian-background">
-                    <div class="imgIntegrante mx-auto">
-                        <img class="card-img-top member" src="media/photos/jaime.jpeg">
-                    </div>
-                    <div class="overlay">
-                    <a href="https://www.linkedin.com/in/katya-geraldine-anco-bustillos-a05b08160/" target="_blank" class="icon" title="User Profile">
-                        <i class="fa fa-linkedin-square mx-3" style="font-size:60px;"></i>
+                <div class="card col-md-12 border-0 float-center my-5 warmi-cian-background">
+                    <a href="https://www.linkedin.com/in/jaime-alejandro-fern%C3%A1ndez-chavez/" target="_blank" class="imgIntegrante-katya mx-auto icon" title="User Profile">
+                        <div class="card-img-top member "></div>
                     </a>
-                    </div>
                     <div class="card-body warmi-cian-background">
                         <h4 class="card-title"><b>Katya Anco Bustillos</b></h4>
                         <p class="card-text">“Sé un agente de cambio que el mundo necesita”</p>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </div>
 
     <!-- COMUNIDAD -->
-    <div id="community" class="container">
+    <div id="community">
+        <div class="container">
         <h1 class="text-center mb-5"><b>Lo que dicen de nosotros</b></h1>
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
             <!--Slides-->
@@ -178,7 +173,7 @@
                         <div class="col-md-3">
                             <img class="img-fluid" src="media/photos/testimonio-jandy.jpg" alt="Card image">
                         </div>
-                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5">
+                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5 height">
                             <h4 class="mb-3">Jandy Pomasoncco Gutierrez</h4>
                             <p>"El programa de Warmi Ventures me ayudó a desarrollar mis habilidades y capacidades para poderlos aplicar en un proyecto que voy realizando."</p> 
                         </div>
@@ -189,7 +184,7 @@
                         <div class="col-md-3">
                             <img class="img-fluid" src="media/photos/testimonio-giuliana.jpeg" alt="Card image">
                         </div>
-                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5">
+                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5 height">
                             <h4 class="mb-3">Giuliana Paredes Condorena</h4>
                             <p>"Mi experiencia con Warmi me acompañó durante todo el programa. Nos hacía sentir identificadas que sí hay alguien que está ahí. Si lo hubiéramos llevado solas, hubiéramos tardado, en otros lados nos decían que no habías pasado la fase y que estaba mal, pero no te explicaban por qué. Warmi nos ayudó a no alargar al decisión de seguir nuestros sueños."</p> 
                         </div>
@@ -200,7 +195,7 @@
                         <div class="col-md-3">
                             <img class="img-fluid" src="media/photos/testimonio-diana.jpg" alt="Card image">
                         </div>
-                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5">
+                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5 height">
                             <h4 class="mb-3">Diana Campusano</h4>
                             <p>"Me gusto mucho como se presento, me llamo mucho la atención, las propuestas me parecen muy válidas, porque otras prometen mucho y no dicen en base a que se puede avanzar, estas son cosas viables que se puede dar, la atención me gusto mucho.Todos los talleres fueron importantes, pero el primero me parece que fue muy importante para aterrizar la idea, ver como comenzar o aterrizar la idea o el emprendimiento.Las asesorías fueron muy importantes para mi, iba viendo como estaba y cómo podía ir mejorando, fueron muchas las asesorías que tuve, el asesor me daba sus recomendaciones, eso me ha fortalecido mucho."</p> 
                         </div>
@@ -211,7 +206,7 @@
                         <div class="col-md-3">
                             <img class="img-fluid" src="media/photos/testimonio-diana.jpg" alt="Card image">
                         </div>
-                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5">
+                        <div class="col-md-9 text-white text-justify warmi-lyla-background px-5 height">
                             <h4 class="mb-3">Pavel Puclla</h4>
                             <p>"Aprendimos a enfocarnos mejor en el problema que queríamos resolver, analizar la información en cada parte del proceso y entender el resultado para generar mejores estrategias para nuestro emprendimiento. Las experiencias fueron fundamentales para conocer contextos diferentes y con base a ello nuestra perspectiva para seguir mejorando."</p> 
                         </div>
@@ -224,26 +219,27 @@
                 <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
             </div>
         </div>
+        </div>
     </div>
 
     <!-- CONTACTO -->
     <div id="contact" class="warmi-violet-background">
         <div class="container mt-5 text-center">
             <div class="row">
-                <div class="col-lg-5 sizeContacto">
-                    <h1 class="text-white mb-5"><b>Aclara tus dudas</b></h1>
+                <div class="col-lg-5 col-sm-12 sizeContacto">
+                    <h1 class="text-white mb-5" style="font-size: 58px"><b>Aclara tus dudas</b></h1>
                     <form class="text-center" method="post" action="send.php">
                         <input name="nombre" type="text" class="form-control mb-5" placeholder="Nombre y Apellido" required>
                         <input name="email" type="email" class="form-control mb-5" placeholder="Correo electrónico" required>
                         <input name="telefono" type="number" class="form-control mb-5" placeholder="Teléfono">
                         <div class="form-group">
-                            <textarea name="mensaje" class="form-control" rows="3" placeholder="Consulta" required></textarea>
+                            <textarea name="mensaje" class="form-control" rows="3" placeholder="¿En qué podemos ayudarte?" required></textarea>
                         </div>
-                        <button class="botonFormulario btn warmi-cian-background form-control" type="submit"><b>Enviar</b></button>
+                        <button class="btn float-right btn-size warmi-cian-background form-control" type="submit"><b>Enviar consulta</b></button>
                     </form>
                 </div>
-                <div class="col-lg-7 sizeContacto">
-                    <img src="media/imagenes/contacto.svg" class="img-fluid" alt="imagenContacto">
+                <div class="col-lg-7 col-sm-12">
+                    <img src="media/imagenes/Ilustracion_5.png" class="img-fluid" alt="imagenContacto" style="transform: translateY(50px)">
                 </div>
             </div>
         </div>
@@ -255,20 +251,20 @@
     </a>
 
     <!-- FOOTER -->
-    <footer class="pt-3 warmi-cian-background">
+    <footer class="pt-3 static-bottom warmi-cian-background">
 		<div class="container">
             <div class="row text-center mx-auto mt-5">
                 <div class="col-lg-5">
-                    <img src="media/logos/Warmi_Logo_Footer.png" class="img-fluid w-50" alt="">
+                    <img src="media/logos/Warmi_alternative_logo.svg" class="img-fluid" alt="">
                 </div>
                 <div class="offset-lg-7"></div>
             </div>
 			<div class="row">
 				<div class="col-lg-5 redesSociales">
 					<div class="text-center my-3">
-						<a href="https://www.linkedin.com/company/warmi-ventures/" target="_blank"><i class="fa fa-linkedin-square mx-3" style="font-size:36px; color: #4a3288;"></i></a>
-						<a href="https://www.facebook.com/warmiventures/" target="_blank"><i class="fa fa-facebook-square mx-3" style="font-size:36px; color: #4a3288;"></i></a>
-						<a href="https://www.instagram.com/warmiventures/" target="_blank"><i class="fa fa-instagram mx-3" style="font-size:36px; color: #4a3288;"></i></a>
+						<a href="https://www.linkedin.com/company/warmi-ventures/" target="_blank"><img src="media/logos/Linkedin_logo.svg" class="fa mx-3" alt="linkedin"></a>
+						<a href="https://www.facebook.com/warmiventures/" target="_blank"><img src="media/logos/Facebook_logo.svg" class="fa mx-3" alt="facebook"></a>
+						<a href="https://www.instagram.com/warmiventures/" target="_blank"><img src="media/logos/Instagram_logo.svg" class="fa mx-3" alt="ig"></a>
 					</div>
 				</div>
                 <div class="col-lg-7 navFooter">
@@ -294,7 +290,9 @@
     <!-- WOW ANIMATE -->
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+        if (!window.matchMedia("(max-width: 700px)").matches){
+            new WOW().init();
+        }
     </script>
 </body>
 </html>
