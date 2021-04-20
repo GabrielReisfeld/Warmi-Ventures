@@ -264,27 +264,23 @@ nav {
     order: 2;
 }
 
-.service-section h1{     
-    font-size: 50px;    
-}
-
-.service-section h1::before{
-    content: "";
-    position: absolute;
-    top: 25%;    
-    width: 120px;
-    height: 10px;    
-    background: #01fabe;    
+.service-section h2{     
+    text-decoration: underline;
+    text-decoration-width: 20px;
+    text-decoration-color: #01fabe;
+    font-size: 40px;
 }
 
 .service-section p{
     font-size: 25px;
     color: black;
 }
+
 /* EQUIPO */
 
 #team{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .member{
@@ -327,7 +323,8 @@ nav {
 /* COMUNIDAD */
 
 #community{
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: white;
 }
 
@@ -339,7 +336,7 @@ nav {
 }
 @media (max-width: 600px) {
     .height{
-       height: 500px;
+       height: 550px;
         width: auto;
     }
 }
@@ -389,12 +386,9 @@ nav {
 .navFooter a:hover{
     opacity: 0.7;
 }
-@media (max-width: 600px){
-    footer{
-        width: 100%;
-    }
+@media (max-width: 600px){    
     .navFooter{
-        font-size: 2vw;
+        display: none;
     }
 }
 
