@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'sofia_proregular';
+    src: url('../css/fonts/WebFontSofiaPro/sofiaproregular-webfont.woff2') format('woff2'),
+    url('../css/fonts/WebFontSofiaPro/sofiaproregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    padding-left: 100px; 
+    padding-right: 100px; 
+    background-color: #01fabe;
+    font-family: 'sofia_proregular', serif;
+}
+
+p{
+    font-style: italic;
+}
+
+.main-img{
+    height: 100vh;
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    .main-img{
+        height: 50vh;
+        width: auto;
+    }
+}
+@media (max-width: 600px) {
+    .main-img{
+        height: 50vh;
+        width: auto;
+    }
+}
+
