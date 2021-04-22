@@ -124,7 +124,7 @@ nav {
 @media (min-width: 992px) {
     .logo-mobile {
         display: none;
-    }
+    }    
 }
 @media (min-width: 600px) and (max-width: 992px) {
     nav {
@@ -293,6 +293,12 @@ nav {
 #team{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+    .card-deck .card{        
+        width: 330px;        
+    }
 }
 
 .member{
