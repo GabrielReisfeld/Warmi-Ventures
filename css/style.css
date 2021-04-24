@@ -356,14 +356,14 @@ nav {
 
 @media (min-width: 600px) and (max-width: 992px) {
     .height{        
-        height: 400px;
+        height: 200px;
         width: auto;
         padding-top: 20px;
     }
 }
 @media (max-width: 600px) {
     .height{
-       height: 550px;
+       height: 250px;
         width: auto;
         padding-top: 20px;
     }
